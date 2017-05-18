@@ -7,7 +7,7 @@ var currYearMS = new Date().getTime();
 // This is the conversion factor from year to milliseconds.
 const y2ms = 31556952000;
 
-// Therefore we define also the offset:
+// Therefore we define also the offset (which will be added to the final result).
 const offset = 1970;
 
 var birthYear;
